@@ -1,83 +1,68 @@
-body{
-    font-family: "OpenSans", sans-serif;
-    background-color: #e0e2e9;
-}
+body {
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #CEC8FF;
-}
+  color: #ffffff; }
 
 .site-footer {
-    background-image: linear-gradient(#031777e7, whitesmoke);
-    padding: 20px 0;
-}
-h5{
-    color: whitesmoke;
-    text-decoration: underline;
-}
-.list-unstyled{
-    color: white;
-}
-.contact a{
-    color:white;
-}
-
-.contact a:hover{
-    color: antiquewhite;
-}
+  background-image: linear-gradient(#5a4bc5, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(#010931, whitesmoke);
-    color: white;
-    margin: 0;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white; }
 
-.bootstrap{
-    border-radius: 50%;
-    background-color: #3a0731;
-}
+h5 {
+  color: whitesmoke;
+  text-decoration: underline; }
 
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
-
-.navbar{
-    background-color:#06336c;
-}
-
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
-
-a, a:hover {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+.navbar {
+  background-color: #901CAD; }
 
 .carousel {
-    border: solid #5637DD;
-}
+  border: solid #5637dd; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.list-unstyled {
+  color: white; }
+
+.contact a {
+  color: white; }
+
+.contact a:hover {
+  color: antiquewhite; }
+
+.bootstrap {
+  border-radius: 50%;
+  background-color: #3a0731; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer; }
+
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
